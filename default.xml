@@ -572,6 +572,12 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
+  
+  <project path="device/motorola/falcon" name="ArolWright/android_device_motorola_falcon" remote="github" revision="lineage-15.1" />
+  <project path="device/motorola/msm8226-common" name="falcon-oreo/android_device_motorola_msm8226-common" remote="github" revision="lineage-15.1" />
+  <project path="kernel/motorola/msm8226" name="falcon-oreo/android_kernel_motorola_msm8226" remote="github" revision="lineage-15.1" />
+  <project path="vendor/motorola" name="falcon-oreo/proprietary_vendor_motorola" remote="github" revision="lineage-15.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.1" />
 
   <include name="snippets/lineage.xml" />
 
